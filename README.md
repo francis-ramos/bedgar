@@ -90,7 +90,7 @@ Goto `global.json` file in the root directory:
 
 Replace the placeholder values with your actual Discord bot token and MongoDB connection string.
 
-> **Important:** Never commit your `.env` file or expose your Discord bot token publicly.
+> **Important:** Never commit your `global.json` file or expose your Discord bot token publicly.
 
 ### 4. Start the bot
 
@@ -134,27 +134,6 @@ Check Server Configuration
 ```
 
 Server configuration and other persistent information can be stored in **MongoDB**, while `fast-glob` helps the application discover the files used by the bot's modular architecture.
-
----
-
-## Project Structure
-
-A typical Bedgar project may be organized similarly to:
-
-```text
-bedgar/
-├── src/
-│   ├── commands/
-│   ├── events/
-│   ├── handlers/
-│   └── ...
-├── .env
-├── package.json
-├── bun.lock
-└── README.md
-```
-
-The exact structure may change as the project develops.
 
 ---
 
