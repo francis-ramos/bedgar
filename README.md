@@ -6,8 +6,9 @@
 
 A beginner-friendly Discord bot that automatically assigns roles to members using **discord.js**, **Bun**, and **MongoDB**.
 
-Made with ♥️ for developers who are learning how Discord bots work.
+**Made with by Francis Enrico Ramos ♥️**
 
+**📅 Published on September 6, 2026**
 </div>
 
 ---
@@ -231,6 +232,6 @@ This project is available for learning and experimentation.
 
 **Bedgar — Beginners Discord Auto Role**
 
-Made with ♥️ using **discord.js + Bun + MongoDB**
+**Made with ♥️ by Francis Enrico Ramos**
 
 </div>
