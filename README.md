@@ -79,11 +79,13 @@ bun install
 
 ### 3. Configure environment variables
 
-Create a `.env` file in the root directory:
+Goto `global.json` file in the root directory:
 
 ```env
-DISCORD_TOKEN=your_discord_bot_token
-MONGODB_URI=your_mongodb_connection_string
+{
+      "uri": "",
+      "token": ""
+}
 ```
 
 Replace the placeholder values with your actual Discord bot token and MongoDB connection string.
@@ -198,14 +200,14 @@ When adding new functionality, keeping commands, events, and other modules separ
 Never expose sensitive credentials such as:
 
 ```text
-DISCORD_TOKEN
-MONGODB_URI
+uri
+token
 ```
 
-Make sure `.env` is included in your `.gitignore`:
+Make sure `global.json` is included in your `.gitignore`:
 
 ```gitignore
-.env
+global.json
 ```
 
 If your Discord bot token is accidentally exposed, **regenerate it immediately through the Discord Developer Portal**.
